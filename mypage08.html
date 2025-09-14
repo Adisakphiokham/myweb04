@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Mobile / Mini Tablet*/
+        @media screen and (max-width: 768px) {
+            h1 {
+                background-color: #ff0000;
+            }
+
+            span {
+                font-size: 10rem;
+                color: #ff0000;
+            }
+        }
+
+        /*Tablet*/
+        @media screen and (min-width: 769px) and (max-width: 1279) {
+            h1 {
+                background-color: #0000ff;
+            }
+
+            span {
+                font-size: 5rem;
+                color: #0000ff;
+            }
+        }
+
+        /*PC*/
+        @media screen and (min-width: 1280px) {
+            h1 {
+                background-color: #00ff00;
+            }
+
+            span {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Responsive Web Site.</h1>
+    <span>SAU</span>
+</body>
+
+</html>
